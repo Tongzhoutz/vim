@@ -1,0 +1,165 @@
+<+	+>	!comp!	!exe!
+%        File: !comp!expand("%:p:t")!comp!
+%     Created: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+% Last Change: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+%
+\documentclass[12pt,sts,intlimits]{imsart-mod}
+
+\usepackage{amsthm,amsmath, amssymb,mathtools, color}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bbm}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+%\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue]{hyperref}
+%%\usepackage{xcolor,colortbl}
+%% use this package if hyperref and natbib is used:
+%%\RequirePackage{hypernat}
+%
+%\usepackage{natbib}
+
+% provide arv number if available:
+\usepackage{color}
+\usepackage{amsfonts, fancybox}
+\usepackage{amssymb}
+\usepackage[american]{babel}
+\usepackage{graphicx, pstricks, pst-node, color}
+\usepackage{psfrag,color}
+\usepackage{dcolumn}
+\usepackage{subfigure}
+\usepackage{flafter , dsfont}
+\usepackage[section]{placeins}
+
+%\usepackage[notref, notcite]{showkeys}
+%\usepackage[inline]{showlabels}
+
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{mathrsfs}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{amssymb}
+\usepackage[boxed]{algorithm2e}
+\usepackage{amssymb, latexsym}
+\usepackage[utopia,upint,vvarbb,bigdelims]{newtxmath}
+\newcommand{\cond}{~|~}
+%snowberg's packages, and some commented out from PR's original
+\usepackage{bm}
+\usepackage{graphicx}
+%\usepackage{graphics}
+\usepackage{epstopdf}
+\usepackage{soul}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\tcbuselibrary{skins}
+\newtcolorbox{comments}{widget,adjusted title=comment,fonttitle=\sffamily, breakable,colback=blue!10!white,boxrule=0pt}
+%\graphicspath{{figures}}
+%\DeclareGraphicsExtensions{.eps.gz,.eps,.epsi.gz,.epsi,.ps,.ps.gz}
+%\DeclareGraphicsRule{*}{ps}{*}{}
+
+%\usepackage{cite}
+\usepackage{boxedminipage}
+\usepackage{tikz}
+\usetikzlibrary{automata,arrows,positioning}
+\topmargin -.45in \oddsidemargin 0in \evensidemargin 0in \textwidth
+6.5in \textheight 8.75in
+
+\newcommand{\ie}{{\it i.e.}}
+\newcommand{\iid}{{\it i.i.d.\ }}
+\newcommand{\indep}{~\raisebox{0.05em}{\rotatebox[origin=c]{90}{$\models$}}~}
+
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{condition}{Condition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{remark}{Remark}
+
+\newtheorem{exm}{Example}[section]
+\newtheorem{lemmapp}{Lemma}[section]
+\newcommand{\BlackBox}{\rule{1.5ex}{1.5ex}}
+
+\let\geq\geqslant
+\let\leq\leqslant
+\newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
+\definecolor{shadecolor}{rgb}{0.92,0.92,0.92}
+
+% \input{commandes}
+
+\newtheorem{assumption}{Assumption}
+
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue, 
+  linkcolor = blue,
+  citecolor = blue}
+  
+  \usepackage[round]{natbib}
+  \usepackage[nameinlink,capitalise]{cleveref}
+
+  \usepackage{bm}
+
+%
+  \begin{document}
+
+\begin{frontmatter}
+
+	\title{Title Here}
+	\runtitle{}
+
+    \author{\fnms{}
+        \snm{} \ead[label=tong]{}
+    }
+    \affiliation{}
+
+% 	\author{ \fnms{Sinho} \snm{Chewi}\thanksref{}\ead[label=sc]{schewi@mit.edu},
+% 		\fnms{Tyler} \snm{Maunu}\ead[label=tm]{maunut@mit.edu},
+% 		\fnms{Philippe} \snm{Rigollet}\ead[label=rigollet]{rigollet@math.mit.edu},
+% 			~and~
+% 		\fnms{Austin J.} \snm{Stromme}\ead[label=ajs]{astromme@mit.edu}
+% 	}
+% 	%\affiliation{Central Marseille, Higher School of Economics and Massachusetts Institute of Technology}
+\begin{abstract}
+  \textbf{This paper}
+\end{abstract}
+
+
+  \end{frontmatter}
+  \section{Primary}
+
+
+    \subsection{comments}
+
+    \section{Models}
+
+    \subsection{comments}
+
+    \section{assumptions}
+
+    \section{lemmas}
+
+ \subsection{comments}
+
+ \section{identification strategy}
+  
+    \subsection{comments}
+
+    \section{What can we learn? }
+
+    \subsection{questions and doubts}
+
+  \end{document}
+
+
+
+
+
+
+

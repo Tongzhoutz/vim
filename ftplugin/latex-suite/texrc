@@ -493,7 +493,6 @@ TexLet g:Tex_PromptedCommands =
 " Smart Key Mappings: {{{
 " Latex-suite shites with a number of 'smart' maps, where the behavior of
 " standard keys is modified in a way which makes editing tex files easy.
-
 " Pressing <BS> in insert mode checks to see whether we are just after
 " something like \'{a} and if so, deletes all of it. i.e, diacritics are
 " treated as single characters for backspacing.
